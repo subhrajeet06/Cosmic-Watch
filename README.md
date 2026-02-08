@@ -37,8 +37,6 @@ Custom algorithm calculates risk score:
 
 risk = (size × speed) ÷ distance
 
-yaml
-Copy code
 
 Classification:
 - 🟢 Safe
@@ -57,9 +55,6 @@ Helps users quickly understand threat levels.
 
 Example:
 ⚠ Asteroid 2026 AB passing within 300,000 km today!
-
-yaml
-Copy code
 
 ---
 
@@ -81,9 +76,6 @@ Makes the dashboard interactive and visually impressive.
 Containerized for easy setup:
 
 docker-compose up
-
-yaml
-Copy code
 
 Runs:
 - frontend
