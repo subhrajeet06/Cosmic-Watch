@@ -118,7 +118,7 @@ OR
 
 # 📁 Project Structure
 
-PAGE-PAL-RESUE/
+Cosmic-Watch/
 │
 ├── public/ # Static assets
 │ ├── favicon.ico
@@ -126,15 +126,15 @@ PAGE-PAL-RESUE/
 │ └── robots.txt
 │
 ├── src/
-│ ├── assets/ # Images/textures/models
-│ ├── components/ # Reusable UI components
-│ ├── hooks/ # Custom React hooks
-│ ├── lib/ # Utilities & API helpers
-│ ├── pages/ # Page-level screens
-│ ├── test/ # Unit tests
-│ ├── App.tsx # Root component
-│ ├── main.tsx # Entry point
-│ └── index.css # Global styles
+│ ├── assets/
+│ ├── components/
+│ ├── hooks/
+│ ├── lib/ 
+│ ├── pages/
+│ ├── test/
+│ ├── App.tsx
+│ ├── main.tsx
+│ └── index.css
 │
 ├── index.html
 ├── package.json
@@ -142,45 +142,7 @@ PAGE-PAL-RESUE/
 ├── vite.config.ts
 └── README.md
 
-yaml
-Copy code
-
 ---
-
-# ⚙️ Installation Guide
-
-## 1️⃣ Clone repository
-git clone <your-repo-url>
-cd cosmic-watch
-2️⃣ Install dependencies
-Using npm:
-npm install
-Using bun:
-bun install
-3️⃣ Start development server
-npm run dev
-
-
-🚀 Development Roadmap
-Phase 1
-NASA API integration
-
-Show asteroid list
-
-Phase 2
-Risk calculation
-
-Phase 3
-Authentication
-
-Phase 4
-Alerts
-
-Phase 5
-3D visualization
-
-Phase 6
-Docker deployment
 
 🎯 Use Cases
 Space enthusiasts
