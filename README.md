@@ -162,9 +162,6 @@ Make changes
 
 Submit PR
 
-📜 License
-MIT License
-
 ---
 
 👨‍💻 Made with ❤️ by :
