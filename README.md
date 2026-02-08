@@ -150,7 +150,7 @@ Hackathons
 ---
 
 🤝 Contributing
-Pull requests welcome!
+Pull requests are welcome!
 
 Steps:
 
