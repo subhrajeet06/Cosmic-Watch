@@ -155,6 +155,8 @@ Educational demos
 
 Hackathons
 
+---
+
 🤝 Contributing
 Pull requests welcome!
 
@@ -171,8 +173,12 @@ Submit PR
 📜 License
 MIT License
 
-👨‍💻 Author
-Suvendu
-B.Tech CSE (AIML)
+---
 
-Built with ❤️ curiosity + code + space science
+👨‍💻 Made with ❤️ by :
+1. Subhrajeet
+2. Subhandu
+3. Shreya Saloni
+4. Manya
+
+---
