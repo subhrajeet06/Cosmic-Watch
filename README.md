@@ -1,73 +1,216 @@
-# Welcome to your Lovable project
+# 🚀 Cosmic Watch
+## Interstellar Asteroid Tracker & Risk Analyzer
 
-## Project info
+Cosmic Watch is a **full-stack space monitoring platform** that tracks **Near-Earth Objects (NEOs)** in real time using NASA APIs and converts complex astronomical data into **simple risk insights, alerts, and interactive 3D visualization**.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Think of it like:
 
-## How can I edit this code?
+🌍 **Google Maps + Weather App … but for Asteroids**
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+# 🌌 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🔐 Authentication
+- User signup & login
+- Secure sessions
+- Save watched asteroids
+- Personalized alerts
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 📡 Real-Time NASA Data Feed
+Integrated with **NASA NeoWs API**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Displays:
+- Asteroid name
+- Velocity
+- Diameter
+- Distance from Earth
+- Hazard status
+- Close-approach time
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## ⚠ Risk Analysis Engine
+Custom algorithm calculates risk score:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+risk = (size × speed) ÷ distance
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+yaml
+Copy code
 
-# Step 3: Install the necessary dependencies.
-npm i
+Classification:
+- 🟢 Safe
+- 🟡 Medium
+- 🔴 Hazardous
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Helps users quickly understand threat levels.
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🔔 Alert & Notification System
+- Close approach alerts
+- Watchlist notifications
+- Dashboard warnings
+- Scheduled background checks
 
-**Use GitHub Codespaces**
+Example:
+⚠ Asteroid 2026 AB passing within 300,000 km today!
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+yaml
+Copy code
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🌍 3D Visualization (Bonus Feature)
+Built using **Three.js**
 
-- Vite
+Includes:
+- Earth model
+- Asteroids orbiting Earth
+- Real-time motion
+- Mouse rotate/zoom controls
+- Risk-based color coding
+
+Makes the dashboard interactive and visually impressive.
+
+---
+
+## 🐳 Docker Deployment
+Containerized for easy setup:
+
+docker-compose up
+
+yaml
+Copy code
+
+Runs:
+- frontend
+- backend
+- database
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+- React (Vite)
 - TypeScript
-- React
-- shadcn-ui
 - Tailwind CSS
+- Three.js
 
-## How can I deploy this project?
+## Backend (API Ready)
+- Node.js + Express  
+OR  
+- Spring Boot (Java)
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## Database
+- MongoDB / MySQL / PostgreSQL
 
-## Can I connect a custom domain to my Lovable project?
+## Tools
+- Docker
+- ESLint
+- Vitest
+- Bun / npm
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+# 📁 Project Structure
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+PAGE-PAL-RESUE/
+│
+├── public/ # Static assets
+│ ├── favicon.ico
+│ ├── placeholder.svg
+│ └── robots.txt
+│
+├── src/
+│ ├── assets/ # Images/textures/models
+│ ├── components/ # Reusable UI components
+│ ├── hooks/ # Custom React hooks
+│ ├── lib/ # Utilities & API helpers
+│ ├── pages/ # Page-level screens
+│ ├── test/ # Unit tests
+│ ├── App.tsx # Root component
+│ ├── main.tsx # Entry point
+│ └── index.css # Global styles
+│
+├── index.html
+├── package.json
+├── tailwind.config.ts
+├── vite.config.ts
+└── README.md
+
+yaml
+Copy code
+
+---
+
+# ⚙️ Installation Guide
+
+## 1️⃣ Clone repository
+git clone <your-repo-url>
+cd cosmic-watch
+2️⃣ Install dependencies
+Using npm:
+npm install
+Using bun:
+bun install
+3️⃣ Start development server
+npm run dev
+
+
+🚀 Development Roadmap
+Phase 1
+NASA API integration
+
+Show asteroid list
+
+Phase 2
+Risk calculation
+
+Phase 3
+Authentication
+
+Phase 4
+Alerts
+
+Phase 5
+3D visualization
+
+Phase 6
+Docker deployment
+
+🎯 Use Cases
+Space enthusiasts
+
+Students & researchers
+
+Astronomy clubs
+
+Educational demos
+
+Hackathons
+
+🤝 Contributing
+Pull requests welcome!
+
+Steps:
+
+Fork repository
+
+Create branch
+
+Make changes
+
+Submit PR
+
+📜 License
+MIT License
+
+👨‍💻 Author
+Suvendu
+B.Tech CSE (AIML)
+
+Built with ❤️ curiosity + code + space science
