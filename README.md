@@ -1,7 +1,7 @@
 # 🚀 Cosmic Watch
 ## Interstellar Asteroid Tracker & Risk Analyzer
 
-Cosmic Watch is a **full-stack space monitoring platform** that tracks **Near-Earth Objects (NEOs)** in real time using NASA APIs and converts complex astronomical data into **simple risk insights, alerts, and interactive 3D visualization**.
+Cosmic Watch is a **full-stack space monitoring platform** that tracks **Near-Earth Objects (NEOs)** in real time using NASA APIs and converts complex astronomical data  **simple risk insights, alerts, and interactive 3D visualization**.
 
 Think of it like:
 
